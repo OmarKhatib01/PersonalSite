@@ -18,7 +18,7 @@ def work():
 def listExample():
 	text = ["Ahmad", "Mahmoud", "Hamdy", "Hamdan", "Hamood"]
 	display= True
-	return render_template("test.html",display=display, list=text )
+	return render_template("test.html",display=display , list=text )
 
 if __name__ == "__main__":
 	app.run(port=3000)
