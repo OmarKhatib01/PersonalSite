@@ -1,0 +1,13 @@
+<html>
+<body>
+{% if display == True %}
+<ol>names:
+{% for text in list %} 
+	<li style>{{text}}</li> 
+{% endfor %}
+</ol>
+
+{% else %}
+	<img src="../static/mrbean.jpg" width = "400", height = "400" >
+	<h1> Display is OFF</h1>
+{% endif %}
