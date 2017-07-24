@@ -1,0 +1,18 @@
+{% extends "index.html" %}
+{% block body %}
+<table id="databasetable">
+	<tr>
+		<td>Name </td>
+		<td>Email </td>
+		<td>Message</td>
+	</tr>
+	{% for person in contacts %}
+	<tr>
+		<td>{{person.name}}</td>
+		<td>{{person.email}}</td>
+		<td>{{person.message}}</td>
+	</tr>
+	{% endfor %}
+</table>
+ {% endblock %}
+ </html>

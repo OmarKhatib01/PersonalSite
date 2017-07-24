@@ -2,7 +2,7 @@ nav
 { height: 0px;}  
   
 #menubar
-{ width: 940px;
+{ width: 1000px;
   height: 50px;
   text-align: center; 
   margin: 0 auto;
@@ -15,7 +15,7 @@ nav
 ul#nav li
 { padding: 0px;
   list-style: none;
-  margin: 10px;
+  margin: 0px;
   display: inline;
   background: transparent;}
 
@@ -23,8 +23,9 @@ ul#nav li a
 { float: left;
   font: bold 130% Arial, Helvetica, sans-serif;
   height: 25px;
-  margin: 10px 30px;
-  margin-left: 160px;
+  margin: 0px 0px;
+  margin-top: 20px;
+  margin-left: 100px;
   text-shadow: 0px -1px 0px #000;
   z-index: 2;
   background: transparent; 
@@ -33,7 +34,9 @@ ul#nav li a
   color:  #000000;
   text-decoration: none;
 } 
-  
+  ul#nav{
+    margin-left: 160px;
+  }
 ul#nav li.current a, ul#nav li:hover a
 { color: #000;
   background: #CCC;
@@ -45,7 +48,7 @@ ul#nav li.current a, ul#nav li:hover a
 
 .background{
 	background-image: url(https://marklangdale.files.wordpress.com/2011/05/guerilla-creative-portfolio-photo-retouching-detail.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-attachment: fixed;
   z-index: -1000;
 }
@@ -94,7 +97,7 @@ img.photo2{
   font-style: italic;
   color: #ffd800;
   width: 1290px;
-  height: 138px;
+  height: 140px;
   border: 20px;
   border-top: 20px;
   background-color: #207025;
@@ -165,4 +168,27 @@ img.photo2{
     max-height: 433px;
     position: fixed;
 
+}
+
+#contactmeform{
+  margin-top: 250px;
+  text-align: center;
+  font-size: 150%:;
+  font-family: verdana;
+}
+
+#button{
+  margin-top: 10px;
+}
+
+
+#contactResponse{
+  margin-top: 250px;
+  text-align: center;
+  color: #915200;
+}
+
+#databasetable{
+  margin-top: 400px;
+  text-align: center;
 }
